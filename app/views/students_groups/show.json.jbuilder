@@ -1,0 +1,1 @@
+json.partial! "students_groups/students_group", students_group: @students_group
