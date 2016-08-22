@@ -21,6 +21,8 @@ class Student < ApplicationRecord
   end
 
   def self.unique_groups
+
+    ######### Need a unique algorithm!!!!!! #############
     cohort, groups, count = [], [], 0
     extra = Student.all.length % 4
     Student.all.each do |student|
